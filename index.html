@@ -6,14 +6,188 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styling/style.css">
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 
 </head>
-<body>
+<body style="background-color: #C28454;">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-light fw-bold">
+        <div class="container-fluid p-1">
+          <a class="navbar-brand p-2" href="#">Wahida</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- HOME -->
+      <header class="home container text-center" id="home">
+        <h2>Hi you!</h2>
+        <h1>I'm 
+            <span class="typer" id="main" data-words="Wahida Nemati, a Full Stack Webdeveloper, and an optimist" data-delay="100" data-colors="white, #C23E20, white" data-deleteDelay="1000"></span>
+            <span class="cursor" data-owner="main"></span>
+          </h1>
+    </header>
+
+    <!-- ABOUT -->
+    <div class="container d-flex" id="about"><section class="title1 p-4" id="about">ABOUT ME</section></div>
+    <div class="container d-flex justify-content-center">
+    <div class="about-card">
+        <div class="profile-sidebar">
+            <img src="/images/newpic2.png" width="170" alt="">
+            <img class="profile-image" src="/images/newpic.PNG" width="170" alt="">
+        </div>
+        <div class="profile-main">
+            <p style="font-weight: bold;">Wahida Nemati</p>
+            <hr class="line">
+            <h4 style="color: rgba(121, 57, 26, 0.945); font-weight: 900; font-size: 17px;">Full Stack Webdeveloper</h4>
+            <hr class="line2">
+            <ul>
+                <li><strong>Birthday:</strong> 20.06.2002</li>
+                <li><strong>Citizenship:</strong> Austria</li>
+                <li><strong>Location:</strong> Vienna, Austria</li>
+                <li><strong>Personality:</strong> helpful, friendly, curious, ambitious, patient</li>
+            </ul>
+            <p>For me, <strong>coding is like putting puzzle pieces together</strong>. 
+                Sometimes it takes longer, sometimes shorter. Nevertheless, the end result is always worth the effort.</p>
+        </div>
+    </div>
+</div>
+    <!-- TIMELINE -->
+    <div class="container d-flex justify-content-center">
+    <div class="timeline-section ">
+        <section class="title2">EDUCATION</section>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2009-2013</div>
+                <div class="timeline-content">
+                    <h4>Volksschule</h4>
+                    <p>Alxingergasse 82 <br> 1100, Vienna, Austria</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2013-2021</div>
+                <div class="timeline-content">
+                    <h4>BRG Gymnasium, Matura</h4>
+                    <p>Ettenreichgasse 41-43, 1100 Vienna, Austria</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021-2022</div>
+                <div class="timeline-content">
+                    <h4>FH Technikum GmbH, Informatik</h4>
+                    <p>Höchstädtpl. 6, 1200 Vienna, Austria</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022</div>
+                <div class="timeline-content">
+                    <h4>Codefactuary, Intensive course</h4>
+                    <p>Kettenbrückengasse 23, 1050 Vienna, Austria</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SKILLS -->
+<div class="container d-flex"><section class="title1 p-4">Skills</section></div>
+<div class="container d-flex justify-content-center" id="skills">
+    <ul class="devicon">
+        <li>
+            <i class="devicon-github-original"></i>
+            <p>Github</p></li>
+        <li>
+            <i class="devicon-vscode-plain"></i>
+            <p>VS Code</p></li>
+        <li>
+            <i class="devicon-html5-plain"></i>
+            <p>HTML5</p></li>
+        <li>
+            <i class="devicon-css3-plain"></i>
+            <p>CSS</p></li>
+        <li>
+            <i class="devicon-sass-original"></i>
+            <p>SASS</p></li>
+        <li> 
+            <i class="devicon-bootstrap-plain"></i>
+            <p>Bootstrap</p></li>
+        <li>
+            <i class="devicon-javascript-plain"></i>
+            <p>Javascript</p></li>
+        <li> 
+            <i class="devicon-typescript-plain"></i>
+            <p>Typescript</p></li>
+        <li>
+            <i class="devicon-angularjs-plain"></i>
+            <p>Angular</p></li>
+    </ul>
+</div>
+
+<!-- PROJECTS -->
+<div class="container d-flex" id="about"><section class="title3 p-4">Projects</section></div>
+<div class="container d-flex justify-content-center"  id="projects">
+    <div class="project-card gap-5">
+        <div class="card" style="width: 100%;">
+            <a href="/wahida-CR1/FE17-CR1-WahidaNemati/index.html"><img src="/images/cr1.png" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+            <h5>First Project, Food Blog</h5>
+          <p class="card-text">HTML, SCSS</p>
+        </div>
+      </div>
+      <div class="card" style="width: 100%;">
+        <a href="/wahida-CR2/FE17-CR2-WahidaNemati/index.html"><img src="/images/cr2.png" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+            <h5>Planner with priorties</h5>
+          <p class="card-text">HTML, SCSS, Javascript, Json</p>
+        </div>
+      </div>
+      <div class="card" style="width: 100%;">
+        <a href="/dist/best-delivery/index.html"><img src="/images/cr3.png" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+            <h5>Restaurant, online order</h5>
+          <p class="card-text">HTML, SCSS, Angular</p>
+        </div>
+    </div>
+      </div>
+</div>
+
+   
     
 
+
+
+
+
+    <!-- TYPER.JS -->
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
     <!-- BOOSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
