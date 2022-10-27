@@ -180,4 +180,30 @@ ul li a:hover {
 }
 .project-card .card .card-body {
   text-align: center;
+}
+
+.contact-card {
+  width: 80%;
+  max-width: 850px;
+  height: 200px;
+  background-color: white;
+  margin-bottom: 60px;
+}
+.contact-card .contact-body {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.contact-card .contact-body p {
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.contact-card .contact-body ul {
+  list-style: none;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.contact-card .contact-body ul i {
+  padding-right: 20px;
 }/*# sourceMappingURL=style.css.map */

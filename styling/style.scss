@@ -204,3 +204,32 @@ ul {
             }
 
      }
+
+     // CONTACT
+    .contact-card {
+        width: 80%;
+        max-width: 850px;
+        height: 200px;
+        background-color: white;
+        margin-bottom: 60px;
+
+        .contact-body {
+            display: flex;
+            flex-direction: column;
+            padding-top: 30px;
+
+            p {
+                font-weight: bold;
+                text-align: center;
+                padding-bottom: 40px;
+            }
+           ul {
+            list-style: none;
+            text-align: center;
+            padding-bottom: 30px;
+            i {
+                padding-right: 20px;
+            }
+           }
+        }
+    }
