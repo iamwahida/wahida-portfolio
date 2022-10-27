@@ -15,7 +15,7 @@ ul li a:hover {
 }
 
 .home {
-  height: 330px;
+  height: 400px;
   padding-top: 150px;
 }
 
@@ -206,4 +206,24 @@ ul li a:hover {
 }
 .contact-card .contact-body ul i {
   padding-right: 20px;
+}
+
+@media (max-width: 700px) {
+  .about-card {
+    margin: auto;
+    flex-direction: column;
+    font-size: 13px;
+  }
+  .about-card .profile-sidebar {
+    padding-bottom: 3em;
+  }
+  .title1 {
+    margin: auto;
+  }
+  .project-card {
+    flex-direction: column;
+  }
+  .project-card .card {
+    margin: auto;
+  }
 }/*# sourceMappingURL=style.css.map */

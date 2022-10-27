@@ -22,7 +22,7 @@ ul {
 
 // Home
 .home {
-    height: 330px;
+    height: 400px;
     padding-top: 150px;
 }
 
@@ -184,7 +184,7 @@ ul {
     font-size: 25px;
 }
      .project-card {
-        width: 1000px;
+            width: 1000px;
             width: 100%;
             height: auto;
             background-color: white;
@@ -231,5 +231,30 @@ ul {
                 padding-right: 20px;
             }
            }
+        }
+    }
+
+    // Media queries
+    @media (max-width: 700px) {
+    // ABOUT
+        .about-card {
+            margin: auto;
+            flex-direction: column;
+            font-size: 13px;
+    
+            .profile-sidebar {
+                padding-bottom: 3em;
+            }
+        }
+    
+        .title1 {
+            margin: auto;
+        }
+
+        .project-card {
+            flex-direction: column;
+            .card {
+                margin: auto;
+            }
         }
     }
