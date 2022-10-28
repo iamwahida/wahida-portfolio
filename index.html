@@ -14,12 +14,12 @@
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- ANIMATION -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 <body style="background-color: #C28454;">
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-light fw-bold">
+    <nav class="navbar navbar-expand-lg bg-light fw-bold fixed-top">
         <div class="container-fluid p-1">
           <a class="navbar-brand p-2" href="#">Wahida</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +48,7 @@
       </nav>
 
       <!-- HOME -->
-      <header class="home container text-center" id="home">
+      <header data-aos="zoom-in" data-aos-delay="300" class="home container text-center" id="home">
         <h2>Hi you!</h2>
         <h1>I'm 
             <span class="typer" id="main" data-words="Wahida Nemati, a Full Stack Webdeveloper, and an optimist" data-delay="100" data-colors="white, #C23E20, white" data-deleteDelay="1000"></span>
@@ -57,8 +57,8 @@
     </header>
 
     <!-- ABOUT -->
-    <div class="container d-flex" id="about"><section class="title1 p-4" id="about">ABOUT ME</section></div>
-    <div class="container d-flex justify-content-center">
+    <div data-aos="fade-up" class="container d-flex" id="about"><section class="title1 p-4" id="about">ABOUT ME</section></div>
+    <div class="container d-flex justify-content-center" data-aos="fade-up">
     <div class="about-card">
         <div class="profile-sidebar">
             <img src="/images/newpic2.png" width="170" alt="">
@@ -81,8 +81,8 @@
     </div>
 </div>
     <!-- TIMELINE -->
-    <div class="container d-flex justify-content-center">
-    <div class="timeline-section ">
+    <div class="container d-flex justify-content-center" data-aos="fade-up">
+    <div class="timeline-section">
         <section class="title2">EDUCATION</section>
         <div class="timeline-items">
             <div class="timeline-item">
@@ -122,9 +122,9 @@
 </div>
 
 <!-- SKILLS -->
-<div class="container d-flex"><section class="title1 p-4">Skills</section></div>
-<div class="container d-flex justify-content-center" id="skills">
-    <ul class="devicon">
+<div data-aos="fade-up" class="container d-flex"><section id="skills" class="title1 p-4">Skills</section></div>
+<div class="container d-flex justify-content-center" data-aos="fade-up" >
+    <ul class="devicon" data-aos="fade-up" data-aos-delay="300">
         <li>
             <i class="devicon-github-original"></i>
             <p>Github</p></li>
@@ -156,24 +156,24 @@
 </div>
 
 <!-- PROJECTS -->
-<div class="container d-flex" id="about"><section class="title3 p-4">Projects</section></div>
-<div class="container d-flex justify-content-center"  id="projects">
+<div data-aos="fade-up" class="container d-flex" id="about"><section id="projects" class="title3 p-4">Projects</section></div>
+<div data-aos="fade-up" class="container d-flex justify-content-center"  >
     <div class="project-card gap-5">
-        <div class="card" style="width: 100%;">
+        <div data-aos="fade-up" data-aos-delay="500" data-aos-offset="100" class="card" style="width: 100%;">
             <a href="/wahida-CR1/FE17-CR1-WahidaNemati/index.html"><img src="/images/cr1.png" class="card-img-top" alt="..."></a>
         <div class="card-body">
             <h5>First Project, Food Blog</h5>
           <p class="card-text">HTML, SCSS</p>
         </div>
       </div>
-      <div class="card" style="width: 100%;">
+      <div data-aos="fade-up" data-aos-delay="600" data-aos-offset="200" class="card" style="width: 100%;">
         <a href="/wahida-CR2/FE17-CR2-WahidaNemati/index.html"><img src="/images/cr2.png" class="card-img-top" alt="..."></a>
         <div class="card-body">
             <h5>Planner with priorties</h5>
           <p class="card-text">HTML, SCSS, Javascript, Json</p>
         </div>
       </div>
-      <div class="card" style="width: 100%;">
+      <div data-aos="fade-up" data-aos-delay="700" data-aos-offset="300" class="card" style="width: 100%;">
         <a href="/dist/best-delivery/index.html"><img src="/images/cr3.png" class="card-img-top" alt="..."></a>
         <div class="card-body">
             <h5>Restaurant, online order</h5>
@@ -184,8 +184,8 @@
 </div>
 
 <!-- CONTACT -->
-<div class="container d-flex" id="about"><section class="title1 p-4">Contact</section></div>
-<div class="container d-flex justify-content-center" id="contact">
+<div data-aos="fade-up" class="container d-flex" id="about"><section id="contact" class="title1 p-4">Contact</section></div>
+<div data-aos="fade-up" class="container d-flex justify-content-center" >
 <div class="contact-card">
     <div class="contact-body">
         <p>Do you have any questions? <br> I am looking forward to your message! :)</p>
@@ -203,10 +203,16 @@
 
 
 
-
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
     <!-- TYPER.JS -->
     <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
     <!-- BOOSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- ANIMATION -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
