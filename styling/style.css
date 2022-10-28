@@ -36,11 +36,14 @@ ul li a:hover {
   padding: 2em;
 }
 .about-card img {
-  box-shadow: -10px 10px 5px rgb(170, 173, 173);
+  box-shadow: 10px 10px 10px rgb(170, 173, 173);
   margin-bottom: 30px;
 }
 .about-card img:hover {
   transform: scale(1.2);
+}
+.about-card .other-img {
+  box-shadow: -10px 10px 10px rgb(170, 173, 173);
 }
 .about-card .profile-sidebar {
   margin: 0 auto;
