@@ -46,13 +46,10 @@ ul {
 
         img {
             box-shadow: -10px 10px 5px rgb(170, 173, 173);
+            margin-bottom: 30px;
             &:hover {
                 transform: scale(1.2);
             }
-        }
-        .profile-image {
-            box-shadow: 10px 10px 5px rgb(170, 173, 173);
-            margin-top: 30px;
         }
         .profile-sidebar {
             margin: 0 auto;
