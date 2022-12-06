@@ -262,7 +262,8 @@ ul li a:hover {
     font-size: 13px;
   }
   .contact-card {
-    height: 250px;
+    height: 280px;
+    padding: 10px;
   }
 }
 @media (max-width: 280px) {
