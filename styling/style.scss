@@ -124,7 +124,7 @@ ul {
                     color: white;
                     background-color: rgb(133, 105, 84);
                     width: 100%;
-                    height: 130px;
+                    height: 160px;
                     padding: 30px;
                     border-radius: 2px;
 
@@ -244,6 +244,7 @@ ul {
 
 // Media queries
 // LARGER SCREENS
+
     @media (max-width: 760px) {
 // ABOUT
         .about-card {
